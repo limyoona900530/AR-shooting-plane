@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 3vmin);
+  background-color: #26db6f;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#camera{
+  border: 1px solid #007acc;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari 和 Chrome */
+  -moz-transform: rotateY(180deg);
+}
+canvas{
+  border: 1px solid #007acc;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari 和 Chrome */
+  -moz-transform: rotateY(180deg);
+}
+.container{
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+  height: calc(100vh);
+  border: 1px solid #007acc;
+  display: grid;
+  grid-template-rows: 12fr 1fr 4fr;
+}
+.upper-container{
+  border: 1px solid #007acc;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.game-container{
+  border: 1px solid #26db6f;
+}
+.camera-container{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.speed{
+  grid-area: speed-up;
+}
+.slow{
+  grid-area: slow-down;
+}
+.left{
+  grid-area: turn-left;
+}
+.right{
+  grid-area: turn-right;
+}
+#camera-outer{
+  grid-area: camera-outer;
+}
+.thumb-box-outer button{
+  background-color: black;
+  color: white;
+  width: 125px;
+}
+.thumb{
+  width: 112px;
+  height: 112px;
+}
+
+.training-option div{
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: left;
+}
+.training-option span{
+ margin-right: 5px;
+}
+.training-option select{
+  width: 90%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.btn{
+  margin-left: 10px;
+}
+#note{
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  font-size: 20px;
+}
+iframe{
+  width: 100% ;
+  height: 100%;
+}
