@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.SceneBegin"
+	 width="1920"
+	height="1080" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="background_png" top="0" bottom="0" left="0" right="0"/>
+	<e:Image source="myplane_png" width="393.765" height="433.751" verticalCenter="-96" horizontalCenter="0"/>
+	<e:Image id="begin" source="start_btn_png" x="927.57" y="811.603" width="100" height="100" touchEnabled="true"/>
+</e:Skin>
